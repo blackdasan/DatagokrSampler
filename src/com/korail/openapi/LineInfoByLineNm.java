@@ -19,7 +19,7 @@ public class LineInfoByLineNm extends APICaller {
         buffer.append(httpURL1);
         buffer.append(certyKey);
         buffer.append(httpURL2);
-        buffer.append("1호선");
+        buffer.append("분당선");
 
         LineInfoByLineNm lineInfo = new LineInfoByLineNm();
         try {
